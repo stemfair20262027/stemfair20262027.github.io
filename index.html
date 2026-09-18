@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
-  <title>main</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEM Fair - Tsunami Research</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
@@ -23,26 +25,37 @@
       background-color: var(--bg-color);
       color: var(--text-color);
       font-family: 'Mona Sans', sans-serif; 
+      font-size: 1rem; 
       margin: 0;
-      padding: 20px;
+      padding: 1.25rem; 
     }
 
     a {
       color: var(--link-color);
     }
 
+    h1 {
+      font-size: 2rem; 
+    }
+
+    h2 {
+      font-size: 1.5rem; 
+      margin-top: 2rem;
+    }
+
     p {
       font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 1rem; 
       line-height: 1.6;
       margin-bottom: 1.5rem;
       text-align: left; 
     }
 
     .pic-tsunami {
-      height: 240px;
-      width: 240px;
+      height: 15rem; 
+      width: 15rem;  
       display: block;
-      margin: 0 auto 20px auto; 
+      margin: 0 auto 1.25rem auto; 
     }
 
     .hos-cen {
@@ -50,25 +63,40 @@
     }
 
     .content-wrapper {
-      max-width: 650px;
+      max-width: 40.625rem; 
       margin: 0 auto;
+    }
+
+    @media screen and (max-width: 48rem) { 
+      body {
+        font-size: 1.1rem; 
+      }
+    }
+
+    .logo {
+      height: 2rem;
+      width: 2rem;
     }
   </style>
 </head>
 <body>
-
 <div class="content-wrapper">
   <div class="hos-cen">
     <h1 id="stem-fair-2026-2027">STEM FAIR 2026-2027</h1>
     <img class="pic-tsunami" src="tsunami_pic.svg" alt="picture of tsunami">
-    <p style="text-align: center;">This is the STEM fair 2026-2027, here is where I write all the hypothesis, background searches and introduction.</p>
+    <p style="text-align: center;">This is the STEM fair 2026-2027, here is where I write all the hypothesis, 
+    background searches and introduction.</p>
   </div>
 
   <h2 id="introduction">Introduction</h2>
-  <p>This is the introduction. The purposes of doing this is to understand better about how does tsunami works. As we have fascinate as for a long time, but we haven’t understand much about it. So, we’ll try to understand, and solve the misconception about tsunamis.</p>
+  <p>This is the introduction. The purposes of doing this is to understand better about how does tsunami works. 
+  As we have fascinate as for a long time, but we haven’t understand much about it. So, we’ll try to understand, 
+  and solve the misconception about tsunamis.</p>
   
   <h2 id="background-literature-search">Background &amp; Literature Search</h2>
-  <p>The project is mainly for us to understand more about our needs for understanding the tsunami functionality. We heard that tsunami is caused by earthquakes, but haven’t understand much. So with this project, we can understand more about tsunamis.</p>
+  <p>The project is mainly for us to understand more about our needs for
+  understanding the tsunami functionality. We heard that tsunami is caused by earthquakes,
+  of course, but haven’t understand much. So with this project, we can understand more about tsunamis.</p>
   
   <h2 id="hypothesis-engineering-goals">Hypothesis &amp; Engineering goals</h2>
   <p>The hypothesis is it is caused by an earthquake strong enough to start a tsunami.</p>
@@ -77,6 +105,9 @@
   <p>On the website:
   <a href="https://www.usgs.gov/faqs/what-it-about-earthquake-causes-a-tsunami">https://www.usgs.gov/faqs/what-it-about-earthquake-causes-a-tsunami</a>, we learned that tsunami was caused by an earthquake mainly at magnitude <strong>6.5 or greater</strong>. Where below magnitude 6.5, it’ll be <strong>unlikely</strong> to cause a tsunami. Between magnitude 6.5 and 7.5, it’ll not <strong>cause much destruction</strong>, but up that , then it’ll be destructive. But its just <strong>one factor</strong> to it, as there're lot more factor (water depth, etc...) to making the tsunami.</p>
 </div>
+
+</body>
+</html>
 
 </body>
 </html>
